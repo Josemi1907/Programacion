@@ -1,12 +1,7 @@
-total = 0
-for i in range(0, 19, 2):
-    if total% 2 == 0:
-        total = i+ total
-        if i%3 == 0:
-            total = total-i
-        else:
-            total = total+1
-    else:
-	    print(total+i)
-print(total)
-
+n = int(input("Ingrese un número entero positivo: "))
+producto = 1
+i = 1
+while i <= n:
+    producto = producto *i
+    i = i+1
+print("El producto de los números del 1 al", n, "es:", producto)
