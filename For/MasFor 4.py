@@ -1,18 +1,11 @@
-print("dime un numero")
-numero = int(input())
+print ("Dime un numero")
+numero = 6
 
-for j in range (numero):
-    cadena = ""
-    segunda_cadena = ""
-    for j in range (numero) :
-        cadena = "*" + cadena
+filaFP = numero * "*"
+filaintermedia = "*" + (numero - 2)* " " + "*"
 
-    for j in range (numero):
-        if j == 0 or j == numero :
-            segunda_cadena = segunda_cadena + "*"
-
-        elif j != 0 or j != numero:
-            segunda_cadena = segunda_cadena + " "
-            
-    print (cadena)
-    print (segunda_cadena)
+for numFilas in range (0, numero +1) :
+    if numFilas == 0 or numFilas == numero:
+        print (filaFP)
+    else:
+        print (filaintermedia)
