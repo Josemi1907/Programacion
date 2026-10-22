@@ -17,3 +17,12 @@ while len(multiplos) <20:
     x = x + 1
 print (multiplos)
 
+multiplos7 = []
+while len(multiplos7) <10:
+    aleatorio7 = random.randint (0,100)
+    if aleatorio7 % 7 == 0 :
+        multiplos7.append(aleatorio7)
+print (multiplos7)
+
+multiplos7.insert (8, "programo")
+print (multiplos7)
