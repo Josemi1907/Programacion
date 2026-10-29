@@ -14,7 +14,7 @@ for i in range(0, len(lista) - 1):
         creciente = False
     if lista[i] < lista[i + 1]:
         decreciente = False
-
+        
     contador = contador + lista[i]
 
 media = contador / len(lista)
