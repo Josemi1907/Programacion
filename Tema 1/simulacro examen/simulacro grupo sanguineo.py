@@ -47,6 +47,3 @@ elif recibe :
 
 else:
     print ("El grupo sanguineo", grupo1, "no es compatible con el", grupo2)
-
-
-
