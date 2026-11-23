@@ -5,6 +5,6 @@ def calculaMayoresQueNumero(lista, numero) :
             mayores.append(lista[i])
     return (mayores)
 
-si = calculaMayoresQueNumero([2,3,4,7, 9, 10 ,2], 5)
+listaMayores = calculaMayoresQueNumero([2,3,4,7, 9, 10 ,2], 5)
 
-print (si)
+print (listaMayores)
